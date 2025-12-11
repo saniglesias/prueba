@@ -1,0 +1,38 @@
+[
+  {"codigo":"AYED","nombre":"Algoritmos y Estructuras de Datos","nivel":1,"correlativas":[]},
+  {"codigo":"AM1","nombre":"Análisis Matemático I","nivel":1,"correlativas":[]},
+  {"codigo":"ALG","nombre":"Álgebra","nivel":1,"correlativas":[]},
+  {"codigo":"ARC","nombre":"Arquitectura de Computadoras","nivel":1,"correlativas":[]},
+  {"codigo":"LGC","nombre":"Lógica","nivel":1,"correlativas":[]},
+  {"codigo":"ING1","nombre":"Inglés I","nivel":1,"correlativas":[]},
+
+  {"codigo":"AM2","nombre":"Análisis Matemático II","nivel":2,"correlativas":["AM1","ALG"]},
+  {"codigo":"PROB","nombre":"Probabilidad y Estadística","nivel":2,"correlativas":["AM1"]},
+  {"codigo":"PdP","nombre":"Paradigmas de Programación","nivel":2,"correlativas":["AYED"]},
+  {"codigo":"SINT","nombre":"Sintaxis y Semántica de los Lenguajes","nivel":2,"correlativas":["AYED"]},
+  {"codigo":"SO","nombre":"Sistemas Operativos","nivel":2,"correlativas":["AYED","ARC"]},
+
+  {"codigo":"ANASYS","nombre":"Análisis de Sistemas","nivel":3,"correlativas":["AYED","AM2"]},
+  {"codigo":"DISEN","nombre":"Diseño de Sistemas","nivel":3,"correlativas":["ANASYS"]},
+  {"codigo":"DDS","nombre":"Desarrollo de Software","nivel":3,"correlativas":["PdP","SINT"]},
+  {"codigo":"BD","nombre":"Bases de Datos","nivel":3,"correlativas":["AYED","PdP"]},
+  {"codigo":"RED","nombre":"Redes de Datos","nivel":3,"correlativas":["SO","ARC"]},
+  {"codigo":"ORGEMP","nombre":"Organización Empresarial","nivel":3,"correlativas":[]},
+  {"codigo":"ECO","nombre":"Economía","nivel":3,"correlativas":["AM1"]},
+  {"codigo":"ING2","nombre":"Inglés II","nivel":3,"correlativas":["ING1"]},
+
+  {"codigo":"INGSOF","nombre":"Ingeniería de Software","nivel":4,"correlativas":["DISEN","DDS"]},
+  {"codigo":"CALIDAD","nombre":"Ingeniería y Calidad del Software","nivel":4,"correlativas":["INGSOF","BD"]},
+  {"codigo":"ADM_SIS","nombre":"Administración de Sistemas","nivel":4,"correlativas":["DISEN"]},
+  {"codigo":"SIM","nombre":"Simulación","nivel":4,"correlativas":["AM2","PROB"]},
+  {"codigo":"SEG","nombre":"Seguridad Informática","nivel":4,"correlativas":["SO","RED"]},
+  {"codigo":"SISTGEST","nombre":"Sistemas de Gestión","nivel":4,"correlativas":["ORGEMP"]},
+  {"codigo":"AUTOM","nombre":"Tecnologías para la Automatización","nivel":4,"correlativas":["ARC"]},
+
+  {"codigo":"IA","nombre":"Inteligencia Artificial","nivel":5,"correlativas":["AM2","DDS"]},
+  {"codigo":"GESTG","nombre":"Gestión Gerencial","nivel":5,"correlativas":["ORGEMP"]},
+  {"codigo":"PPS","nombre":"Práctica Profesional Supervisada","nivel":5,"correlativas":["INGSOF","ADM_SIS"]},
+  {"codigo":"TPF","nombre":"Trabajo Final","nivel":5,"correlativas":["PPS","INGSOF"]},
+  {"codigo":"LEG","nombre":"Legislación y Ética Profesional","nivel":5,"correlativas":[]}
+]
+
